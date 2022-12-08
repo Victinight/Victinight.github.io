@@ -1,0 +1,9 @@
+.banner-big{
+    background-image: url("../../image/YERASIMOS_oscar_G4_decorplateforme.png");
+    background-size: cover;
+    background-position: center;
+    width: 98vw;
+    color: white;
+    padding: 100px 0;
+    max-height: 130px;
+}
