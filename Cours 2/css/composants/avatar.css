@@ -1,0 +1,46 @@
+.avatar{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar-small{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.avatar-big{
+    width: 150px;
+    height: 150px;
+}
+
+
+.border-anim{
+    animation-name: borderrgb;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes borderrgb{
+
+    0%{
+        border: 3px solid rgb(0, 0, 0);
+    }
+
+    25%{
+        border: 3px solid rgb(255, 0, 0);
+    }
+
+    50%{
+        border: 3px solid rgb(0, 255, 0)
+    }
+
+    75%{
+        border: 3px solid rgb(0, 0, 255)
+    }
+
+    100%{
+        border: 3px solid rgb(0, 0, 0);
+    }
+}
