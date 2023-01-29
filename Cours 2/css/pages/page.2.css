@@ -40,10 +40,51 @@ a {
 }   
 
 .bande{
+    transition: all;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     display: flex;
     justify-content: space-between;
+
+}
+
+.bflexS{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bflexE{
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer ul{
     list-style: none;
+}
+
+@keyframes move{
+    0%{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    25%{
+        display:flex;
+        justify-content: flex-start;
+    }
+
+    50%{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    75%{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    100%{
+        display:flex;
+        justify-content: space-between;
+    }
 }
